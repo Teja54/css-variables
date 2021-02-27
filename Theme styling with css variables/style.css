@@ -1,0 +1,18 @@
+body {
+  font-size: 16px;
+  font-family: monospace;
+  background: var(--bg, white);
+  color: var(--color, black);
+}
+.theme > button {
+  border: 1px solid red;
+  background-color: transparent;
+  font-weight: 700;
+  color: blue;
+}
+.theme > button:focus {
+  outline: none;
+}
+article {
+  padding: 30px;
+}
